@@ -1,0 +1,23 @@
+{
+  "name": "rest",
+  "version": "0.0.1",
+  "description": "rest app, client and server",
+  "main": "lib/rest-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs lib/rest-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hpvdc/rest.git"
+  },
+  "author": "Hugo Passo (hpvdc)",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/hpvdc/rest/issues"
+  },
+  "dependencies": {
+    "restify": "~3.0.3",
+    "assert": "~1.3.0"
+  }
+}
